@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Nuxt dev",
+            "type": "node",
+            "request": "launch",
+            "protocol": "inspector",
+            "program": "${workspaceRoot}/node_modules/.bin/nuxt",
+            "stopOnEntry": false,
+            "args": ["test/fixture", "dev"],
+            "cwd": "${workspaceRoot}",
+            "sourceMaps": true,
+            "env": {
+                "NODE_ENV": "development",
+                "DEBUG": "nuxt:*,app"
+            }
+          }
+    ]
+}
