@@ -15,14 +15,14 @@
 Import and configure Amplify from module.
 
 ## Setup
-- Add `@bingsjs/nuxt-amplify` dependency using yarn or npm to your project
-- Add `@bingsjs/nuxt-amplify` to `modules` section of `nuxt.config.js`
+- Add `nuxt-amplify` dependency using yarn or npm to your project
+- Add `nuxt-amplify` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // With options
-    ['@bingsjs/nuxt-amplify', { /* Amplify configurations */ }],
+    ['nuxt-amplify', { /* Amplify configurations */ }],
  ]
 }
 ```
